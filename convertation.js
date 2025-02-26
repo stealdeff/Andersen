@@ -1,5 +1,5 @@
 
-//convert_to_binary-функция перевода числа из десятичной системы в двоичную 
+//convert_to_binary-the function of converting numbers from decimal to binary
 function convert_to_binary(num){
  const result=[];
   while(num>=1)
@@ -11,7 +11,7 @@ function convert_to_binary(num){
 }
 console.log(convert_to_binary(12))
 
-//convert_to_number-функция перевода числа из двоичной системы в десятичную 
+//convert_to_number-the function of converting numbers from binary to decimal
 function convert_to_number(bin){
  const digits = Array.from(bin.toString(), Number);
  let res=0;
@@ -21,7 +21,7 @@ function convert_to_number(bin){
 }
 console.log(convert_to_number(1110000111))
 
-//convertstion-функция, определяющая по регулярному выражению, в какой системе записано число, и выводящая ее представление в другой системе
+//convertstion-a function that uses a regular expression to determine in which system a number is written, and outputs its representation in another system.
 function convertation(n){
    let res=0; 
    let res2=[]
