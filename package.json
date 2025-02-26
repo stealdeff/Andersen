@@ -1,0 +1,12 @@
+{
+  "name": "andersen",
+  "version": "1.0.0",
+  "main": "convertation.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
